@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  text-shadow: 2px 2px #000000;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 70vmin;
   pointer-events: none;
 }
 
@@ -14,7 +15,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: repeating-linear-gradient(
+          45deg,
+          #831414,
+          #7a1111 40px,
+          #265726 40px,
+          #265726 80px
+  );
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +33,7 @@
 
 .App-link {
   color: #61dafb;
+  text-shadow: 2px 2px #000000;
 }
 
 @keyframes App-logo-spin {
@@ -33,6 +41,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(1440deg);
   }
 }

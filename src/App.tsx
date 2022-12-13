@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './Photos/CharlieSanta.png';
 import './App.css';
 
 function App () {
@@ -8,15 +8,15 @@ function App () {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Happy Holidays Crackers!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.youtube.com/watch?v=z8LmMtScH3g"
           target="_blank"
           rel="noopener noreferrer"
         >
-          This app will hate Jon
+          Click here for some Holiday Music!!
         </a>
       </header>
     </div>
